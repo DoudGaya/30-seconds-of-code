@@ -12,14 +12,9 @@ The Map function is particularly useful when you want to modify all the elements
 - You can map through elements of an array or even array of objects. Let's the the two examples here.
 - usage examples `[1,2,3,4,5,6,7].map()` or if you store it as a variable `arr` you can use `arr.map()`
 
-
-
 ### Basic skeleton 
 
 ` arr.map( arg => { do something with arg } ) `
-
-
-
 
 ### Example (1) Arrays of Numbers 
 - Let's say we want to add `10` to all the elements of our array
@@ -68,5 +63,4 @@ const users = [
 ]
 mapArrayElements(users); //[ 'Hi, John', 'Hi, James', 'Hi, Will' ]
 ```
-
 theres alot of things you can do with map. Including redenring elements to unordered list or making calculations or modifications
